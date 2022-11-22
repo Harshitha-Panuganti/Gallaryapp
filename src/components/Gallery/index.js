@@ -101,7 +101,7 @@ class Gallery extends Component {
         <div className="gallery-container">
           {this.renderSelectedImage()}
           <h1 className="heading">Nature Photography</h1>
-          <p className="description">Nature Photography by Rahul</p>
+          <p className="description">Nature Photography by Harshitha</p>
           <ul className="thumbnails-list-container">
             {imagesList.map(eachImage => (
               <ThumbnailItem
